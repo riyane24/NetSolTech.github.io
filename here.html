@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+    <form id="myForm" action="https://formspree.io/f/mqkvngpl/riyanebombwa24@gmail.com" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+        <input type="submit" value="Submit and Redirect">
+    </form>
+
+    <script>
+        document.getElementById("myForm").onsubmit = function() {
+            // Redirect to your hosted website
+            window.location.href = "https://riyane24.github.io/NetSolTech.github.io/#"; // Replace with your hosted website URL
+        };
+    </script>
+</body>
+</html>
