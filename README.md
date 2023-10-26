@@ -1,1 +1,0 @@
-# NetSolTech.github.io
